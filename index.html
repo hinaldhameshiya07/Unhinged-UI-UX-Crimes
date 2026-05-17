@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Nutrition - Official Multi-Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="dark-mode-toggle" class="dark-mode-toggle">Toggle System Dark Mode</div>
+
+    <marquee id="marquee-banner" scrollamount="10">⚠️ SYSTEM LATENCY WITHIN CRITICAL COMPLIANCE LIMITS. DO NOT REFRESH SYSTEM. ⚠️</marquee>
+
+    <div class="timeout-banner">
+        ⚠️ MAXIMUM ALLOTTED RUNTIME: 
+        <span id="timer">05:00</span> REMAINING BEFORE LOSS OF COMPLIANCE DATA ⚠️
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="bureau-seal">⚖️</div>
+            <h2>Central Bureau of Dietary Allotments</h2>
+            <p id="flow-step">Terminal Protocol Layer: [1 of 3]</p>
+        </header>
+
+        <div id="activity-modal" class="modal-overlay">
+            <div class="modal-content">
+                <h2>🚨 CITIZEN ACTIVITY DETECTED 🚨</h2>
+                <p>Are you still monitoring this terminal screen?</p>
+                <button type="button" id="btn-confirm-attendance" class="gov-btn">CONFIRM TERMINAL ATTENDANCE</button>
+            </div>
+        </div>
+
+        <div id="screen-1" class="page-view page-active">
+            <h3>CITIZEN AUTHORIZATION PORTAL</h3>
+            <p class="instruction-text">Please input your administrative encryption tokens to unlock allocation parameters.</p>
+            
+            <div class="form-group">
+                <label>Citizen Control ID</label>
+                <input type="text" value="CITIZEN-99482-A" readonly class="disabled-input">
+                <small class="help-text">* Provided automatically for your confinement tracking records.</small>
+            </div>
+
+            <div class="form-group">
+                <label>Security Keyphrase (Must contain exactly 1 Roman Numeral and 0 Vowels)</label>
+                <input type="password" id="pass-field" placeholder="Enter keyphrase...">
+                <small id="pass-error" class="error-text">🚨 SECURITY PROTOCOL DENIED: UNKNOWN CHARACTER MIX IN ARRAY</small>
+            </div>
+
+            <div class="btn-box">
+                <button type="button" class="gov-btn" id="btn-authorize">AUTHORIZE TERMINAL ENTRY</button>
+            </div>
+        </div>
+
+        <div id="screen-2" class="page-view">
+            <h3>PROTOCOL-EAT: REQUISITION FORM FOR PERISHABLE RATIONS</h3>
+            
+            <div class="form-group">
+                <label>1. Select Your Allocated Caloric Unit</label>
+                <div class="food-item">
+                    <span>Standard Paste (Unflavored) - Credits: 0.00</span>
+                    <input type="checkbox">
+                </div>
+                <div class="food-item">
+                    <span>Dehydrated Liquid Pellet (1pc) - Credits: 45.99</span>
+                    <input type="checkbox" id="item-pellet">
+                </div>
+                <div class="food-item">
+                    <span>Single Artisanal Grape - Credits: 120.00</span>
+                <input type="checkbox" id="grape">
+            </div>
+                <p class="fine-print">* A mandatory compliance verification fee of 89.99 credits will be added.</p>
+            </div>
+
+            <div class="form-group">
+                <label>2. Registered Full Name (KEYBOARD PROTECTION FILTER ACTIVE)</label>
+                <input type="text" id="username" placeholder="Type extremely slowly...">
+                <small id="speed-warning" class="error-text">🚨 INPUT SPEED CRITICAL! SEVERE DELAY FORCED! 🚨</small>
+            </div>
+
+            <div class="form-group">
+                <label>3. Dial-In Your 10-Digit Core Identification Number</label>
+                <input type="range" id="phoneSlider" min="1000000000" max="9999999999" value="5555555555">
+                <div id="phoneDisplay">555-555-5555</div>
+            </div>
+
+            <div class="form-group">
+                <label>4. Delivery Urgency Matrix</label>
+                <select id="urgency">
+                    <option value="slow">Standard (4-6 Business Months)</option>
+                    <option value="medium">Expedited (Next Financial Quarter)</option>
+                    <option value="fast">Immediate (Charges your credit card, sends nothing)</option>
+                </select>
+            </div>
+
+            <div id="btn-submit-container" class="btn-box">
+                <button type="button" id="btn-submit" class="gov-btn">TRANSMIT DATA ARRAY</button>
+            </div>
+
+            <div id="loading-container">
+                <p id="loading-text">Processing citizen metadata...</p>
+                <div id="progress-bar">
+                    <div id="progress-fill">0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="screen-3" class="page-view">
+            <h3>TRANSMISSION COMPLETION SUITE</h3>
+            <div class="receipt-box">
+                <p>STATUS: PENDING ARCHIVAL EVALUATION</p>
+                <p>TRANSACTION REFERENCE: #VOID-0000000</p>
+                <p>FINAL PROCESSING TOTAL: <strong>89.99 Credits</strong></p>
+            </div>
+
+            <div class="fake-ad">
+                🔥 CITIZEN NOTICE: UPGRADE TO PREMIUM NUTRITION FOR JUST 4,000 MORE CREDITS! 🔥
+                <br>
+                <button type="button" id="btn-premium-ad">UPGRADE NOW</button>
+            </div>
+
+            <p class="final-instruction">To secure your transaction safely within regional archives, you must pass the final confirmation layer.</p>
+
+            <div class="btn-box layout-centered">
+                <button type="button" class="gov-btn" id="btn-receipt-download">DOWNLOAD OFFICIAL BLANK RECEIPT</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
