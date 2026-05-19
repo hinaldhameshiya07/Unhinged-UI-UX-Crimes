@@ -2,6 +2,14 @@
 
 > _“A carefully engineered collection of UI/UX crimes against humanity.”_
 
+GovGulp is a fully functional, highly distressing administrative terminal simulation built for the Unhinged UI / UX Crimes challenge hosted by Sheryians Coding School.
+
+## 🌐 Quick Links
+
+- 🌐 Live Demo: [View Project](https://hinaldhameshiya07.github.io/Unhinged-UI-UX-Crimes/)
+- 📂 GitHub Repo: [Repository](https://github.com/hinaldhameshiya07/Unhinged-UI-UX-Crimes)
+- 🎥 Project Video: [Watch Here](https://drive.google.com/drive/folders/1OZ79uThDaKFVxOmsDao5p2D4qrMJhk6A?usp=sharing)
+
 ## 📌 About The Project
 
 **Unhinged UI-UX Crimes** is a deliberately cursed web experience designed to showcase the absolute worst possible user interface and user experience decisions imaginable.
@@ -43,25 +51,31 @@ GovGulp is a fake joke website designed to be intentionally terrible and frustra
 
 ## ✨ Features
 
-### 🚨 Main UI Crimes
+## ☠️ Major UI/UX Crimes
 
-### 1. Phone Number Slider
-You cannot type your phone number.  
-Instead, you must find it using an almost impossible slider.
+1. **Artificial Urgency**  
+Fake timers and warnings create unnecessary stress and pressure.
 
-### 2. Typing Trap
-Typing too fast triggers an error popup that deletes your name completely.  
-You must type painfully slowly to continue.
+2. **Forced Interactions**  
+Pointless confirmations interrupt the user workflow.
 
-### 3. Runaway Button
-The submit button detects your cursor and escapes before you can click it.
+3. **Impossible Input Rules**  
+Absurd validation requirements make forms frustrating to complete.
 
-### 4. Fake Dark Mode
-Dark mode turns both the background and text black, making the website invisible.
+4. **Input Throttling**  
+The site punishes users for typing too fast.
 
-### 5. Infinite Loading Screen
-The loading bar reaches 99%, resets itself, and loops forever.  
-The website never actually finishes loading.
+5. **Hidden Fees**  
+Mandatory compliance charges manipulate pricing and break trust.
+
+6. **Fake Service Options**  
+Delivery choices are intentionally deceptive and useless.
+
+7. **Aggressive Upselling**  
+Intrusive premium popups constantly distract users.
+
+8. **Confusing Feedback**  
+Loading states and system messages provide no clear progress or transparency.
 
 <br>
 
